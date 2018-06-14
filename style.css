@@ -1,7 +1,7 @@
 /*
     0 CSS RESET
 */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -75,7 +75,7 @@ main {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 323px;
+    width: 328px;
     font-size: 0.9em;
     overflow: auto;
     padding: 0 0 0 45px;
@@ -86,7 +86,7 @@ main {
     position: fixed;
     height: 100%;
     width: 30px;
-    background-color: #53ACD0;
+    background-color: #1661AD;
     color: white !important;
     cursor: pointer;
     z-index: 100; }
@@ -140,11 +140,11 @@ main {
   color: white; }
 
 #toc .toc-active, #toc li:hover {
-  background: #53ACD0;
-  box-shadow: inset -5px 0px 10px -5px #53ACD0 !important; }
+  background: #1661AD;
+  box-shadow: inset -5px 0px 10px -5px #1661AD !important; }
 
 #toc li:hover a {
-  color: white; 
+  color: white;
   background: none;
   box-shadow: none;
 }
@@ -200,7 +200,7 @@ p.document-type, p.document-stage {
 
 p.document-type {
   font-weight: 400;
-  height: 210px; }
+  height: 150px; }
 
 #governance-band p.document-type {
   font-weight: 400;
@@ -211,10 +211,10 @@ p.document-stage {
   height: 160px; }
 
 #standard-band {
-  background-color: #0ac442; }
+  background-color: #9ABD48; }
 
 #standard {
-  border-bottom: solid 3px #0ac442; }
+  border-bottom: solid 3px #9ABD48; }
 
 #governance {
   border-bottom: solid 3px #750697; }
@@ -236,10 +236,10 @@ p.document-stage {
   text-transform: uppercase; }
 
 #working-draft {
-  border-bottom: solid 3px #fda706; }
+  border-bottom: solid 3px #F7803C; }
 
 #working-draft-band {
-  background-color: #fda706; }
+  background-color: #F7803C; }
 
 #committee-draft {
   border-bottom: solid 3px #fd06fd; }
@@ -254,10 +254,10 @@ p.document-stage {
   border-bottom: solid 3px #fdf906; }
 
 #standard {
-  border-bottom: solid 3px #0ac442; }
+  border-bottom: solid 3px #9ABD48; }
 
 #standard-band {
-  background-color: #0ac442; }
+  background-color: #9ABD48; }
 
 #obsolete {
   border-bottom: solid 3px #7e0d13; }
@@ -273,7 +273,7 @@ p.document-stage {
 */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Overpass", sans-serif;
-  color: #53ACD0;
+  color: #1661AD;
   font-weight: 300;
   margin-top: 2em;
   margin-bottom: 0.3em; }
@@ -296,7 +296,7 @@ h3 {
 
 
 .TermNum, .Terms, .AltTerms {
-  color: #53ACD0;
+  color: #1661AD;
   font-weight: 100; }
 
 p.TermNum {
@@ -319,20 +319,20 @@ a, a:visited {
 
 a:hover {
   color: white;
-  background: #53ACD0;
-  box-shadow: 3px 0 0 #53ACD0, -3px 0 0 #53ACD0;
+  background: #1661AD;
+  box-shadow: 3px 0 0 #1661AD, -3px 0 0 #1661AD;
   /* padding: 2px 0 2px 0; */ }
 
 ::selection {
-  background: #53ACD0;
+  background: #1661AD;
   /* WebKit/Blink Browsers */
   color: white; }
 
 ::-moz-selection {
-  background: #53ACD0;
+  background: #1661AD;
   /* Gecko Browsers */
   color: white; }
-  
+
 
 .contact-info a:hover {
   color: #485094;
@@ -355,7 +355,7 @@ li {
     display: inline-block; width: 1em;
     margin-left: -1.2em;
   }
-  
+
   li p {
     display: inline;
   }
@@ -493,7 +493,7 @@ a.footnote-number {
     3.13 Contact Info
 */
 .contact-info {
-  background-color: #53ACD0;
+  background-color: #1661AD;
   color: white;
   padding: 2em;
   margin-top: 5em;
@@ -545,15 +545,15 @@ h2 p {
     4.1 Top Logo
 */
 .wrapper-top {
-  background-color: #6793C7;
+  background-color: #1661AD;
   /* background-image: url("img/dots@2x.png"); */
   color: #ffffff;
   padding: 2em 0; }
 
 .wrapper-top-bottom {
-  width: 0; 
-  height: 0; 
-  border-top: 100px solid #6793C7; 
+  width: 0;
+  height: 0;
+  border-top: 100px solid #1661AD;
   border-right: 100px solid transparent;
   position: absolute;
 }
@@ -567,12 +567,12 @@ h2 p {
   font-family: "Overpass", sans-serif;
   font-size: 1.2em;
   line-height: 1.2em;
-  font-weight: 100; 
+  font-weight: 100;
   padding-left: 1em;
   padding-right: 1em;
   text-transform: uppercase;
 }
-  
+
 
 .WordSection11 {
   padding: 0 2em 0 3em; }
